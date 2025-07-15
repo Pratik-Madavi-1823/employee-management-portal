@@ -1,0 +1,95 @@
+# ==========================
+# GLOBAL IGNORE RULES
+# ==========================
+
+# System files
+.DS_Store
+Thumbs.db
+
+# ==========================
+# BACKEND (Spring Boot)
+# ==========================
+
+# Maven & Build
+target/
+build/
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Spring generated
+*.log
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code (backend)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ==========================
+# FRONTEND (Angular)
+# ==========================
+
+# Build output
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
+
+# Node modules
+/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Angular specific
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+.history/
+
+# IDEs
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# ==========================
+# EXCEPTIONS (if needed)
+# ==========================
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
